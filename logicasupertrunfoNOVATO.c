@@ -83,23 +83,14 @@ int main() {
             printf("Densidade populacional:  %.2f\n", populacao2 / area2);
             printf("\n");
             printf("\n");
-    /*DUELO DE CARTAS
-    printf("Duelo de cartas: \n");
-    printf("População: carta 1 venceu: %d\n", populacao1 > populacao2);
-    printf("Área: carta 1 venceu: %d\n", area1 > area2);
-    printf("PIB: carta 1 venceu: %d\n", pib1 > pib2);
-    printf("Pontos Turisticos: carta 1 venceu: %d\n", pontos1 > pontos2);
-    printf("Densidade populacional: carta 1 venceu: %d\n",densidade1 > densidade2);
-    printf("PIB per capita: carta 1 venceu: %d\n", PPC1 > PPC2);
-    printf("\n");
-    printf("\n");    ---------USADO NO SUPERTRUNFO MESTRE, SUBSTITUIDO NO DESENVOLVENDO LOGICA NOVATO
-    VALOR SUPER PODER*/       
+    //Comparação de poderes
     printf("O poder da carta 1 é: %.5f\n", superpoder1);
     printf("O poder da carta 2 é: %.5f\n", superpoder2);
 
     printf("\n");
     printf("\n");
-
+    
+    //inicio duelos
     printf("Duelo de cartas: população\n");
     if (populacao1 > populacao2){
         printf("carta 1 venceu\n");}
@@ -118,7 +109,7 @@ int main() {
     printf("Duelo de cartas: pontos turisticos\n");
     if (pontos1 > pontos2){
         printf("Carta 1 venceu\n");}
-    else {printf("Carta 2 venceu");}
+    else {printf("Carta 2 venceu\n");}
 
     //densidade qual for menor ganha
     printf("Duelo de cartas: densidade populacional\n");
@@ -133,15 +124,8 @@ int main() {
 
     printf("Duelo de cartas: super poder\n");
     if (superpoder1 > superpoder2){
-        printf("Carta 1 venceu\n");}
-    else {printf("Carta 2 venceu\n");}
-
-    
-        
-    
-    
-
-
+        printf("Carta 1 é a grande vencedora\n");}
+    else {printf("Carta 2 é a grande vencedora\n");}
 
     return 0;
 }
